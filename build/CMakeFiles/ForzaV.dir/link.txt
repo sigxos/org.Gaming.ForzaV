@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ForzaV.dir/main.c.o "CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o" "CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o" -o ForzaV  -lcurses /usr/lib/x86_64-linux-gnu/libform.so

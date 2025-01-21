@@ -1,0 +1,3 @@
+/home/sigxos/Pubblici/ForzaV/build/CMakeFiles/ForzaV.dir
+/home/sigxos/Pubblici/ForzaV/build/CMakeFiles/edit_cache.dir
+/home/sigxos/Pubblici/ForzaV/build/CMakeFiles/rebuild_cache.dir
