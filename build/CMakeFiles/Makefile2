@@ -81,12 +81,12 @@ clean: CMakeFiles/ForzaV.dir/clean
 CMakeFiles/ForzaV.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=1,2,3,4 "Built target ForzaV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target ForzaV"
 .PHONY : CMakeFiles/ForzaV.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ForzaV.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sigxos/Pubblici/ForzaV/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sigxos/Pubblici/ForzaV/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ForzaV.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sigxos/Pubblici/ForzaV/build/CMakeFiles 0
 .PHONY : CMakeFiles/ForzaV.dir/rule

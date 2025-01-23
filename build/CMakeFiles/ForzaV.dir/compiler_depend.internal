@@ -4,8 +4,9 @@
 CMakeFiles/ForzaV.dir/main.c.o
  /home/sigxos/Pubblici/ForzaV/main.c
  /home/sigxos/Pubblici/ForzaV/main.h
- /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h
- /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.h
+ /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h
+ /home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.h
+ /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.h
  /usr/include/alloca.h
  /usr/include/curses.h
  /usr/include/endian.h
@@ -78,9 +79,9 @@ CMakeFiles/ForzaV.dir/main.c.o
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o
- /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c
- /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o
+ /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c
+ /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h
  /usr/include/alloca.h
  /usr/include/curses.h
  /usr/include/endian.h
@@ -151,11 +152,12 @@ CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o
- /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o
+ /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c
  /home/sigxos/Pubblici/ForzaV/main.h
- /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h
- /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.h
+ /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h
+ /home/sigxos/Pubblici/ForzaV/src/sInstructions/sInstructions.h
+ /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.h
  /usr/include/alloca.h
  /usr/include/curses.h
  /usr/include/endian.h

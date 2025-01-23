@@ -3,8 +3,9 @@
 
 CMakeFiles/ForzaV.dir/main.c.o: /home/sigxos/Pubblici/ForzaV/main.c \
   /home/sigxos/Pubblici/ForzaV/main.h \
-  /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h \
-  /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.h \
+  /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h \
+  /home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.h \
+  /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.h \
   /usr/include/alloca.h \
   /usr/include/curses.h \
   /usr/include/endian.h \
@@ -77,8 +78,8 @@ CMakeFiles/ForzaV.dir/main.c.o: /home/sigxos/Pubblici/ForzaV/main.c \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o: /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c \
-  /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h \
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o: /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c \
+  /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h \
   /usr/include/alloca.h \
   /usr/include/curses.h \
   /usr/include/endian.h \
@@ -149,10 +150,11 @@ CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o: /home/sigxos/Pubblici/
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c \
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o: /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c \
   /home/sigxos/Pubblici/ForzaV/main.h \
-  /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h \
-  /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.h \
+  /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h \
+  /home/sigxos/Pubblici/ForzaV/src/sInstructions/sInstructions.h \
+  /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.h \
   /usr/include/alloca.h \
   /usr/include/curses.h \
   /usr/include/endian.h \
@@ -226,7 +228,7 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
 
-/home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c:
+/home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h:
 
@@ -248,23 +250,23 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
+/home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c:
+
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/home/sigxos/Pubblici/ForzaV/src/vMain/vMain.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/endian.h:
 
 /usr/include/time.h:
 
@@ -282,6 +284,8 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/home/sigxos/Pubblici/ForzaV/src/sInstructions/sInstructions.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/stdlib.h:
@@ -293,6 +297,8 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/features.h:
 
 /usr/include/string.h:
 
@@ -306,17 +312,27 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/home/sigxos/Pubblici/ForzaV/src/sGame/sGame.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
 /usr/include/curses.h:
+
+/home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /home/sigxos/Pubblici/ForzaV/main.c:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/features.h:
-
-/home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/ncurses_dll.h:
 
@@ -326,17 +342,9 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -355,6 +363,8 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/stdio.h:
 
@@ -375,7 +385,3 @@ CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/Fo
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:

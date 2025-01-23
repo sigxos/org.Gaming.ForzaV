@@ -153,53 +153,77 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/main.c.s
 .PHONY : main.c.s
 
-src/game/start-game/start-game.o: src/game/start-game/start-game.c.o
-.PHONY : src/game/start-game/start-game.o
+src/sGame/sGame.o: src/sGame/sGame.c.o
+.PHONY : src/sGame/sGame.o
 
 # target to build an object file
-src/game/start-game/start-game.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o
-.PHONY : src/game/start-game/start-game.c.o
+src/sGame/sGame.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o
+.PHONY : src/sGame/sGame.c.o
 
-src/game/start-game/start-game.i: src/game/start-game/start-game.c.i
-.PHONY : src/game/start-game/start-game.i
+src/sGame/sGame.i: src/sGame/sGame.c.i
+.PHONY : src/sGame/sGame.i
 
 # target to preprocess a source file
-src/game/start-game/start-game.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.i
-.PHONY : src/game/start-game/start-game.c.i
+src/sGame/sGame.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/sGame/sGame.c.i
+.PHONY : src/sGame/sGame.c.i
 
-src/game/start-game/start-game.s: src/game/start-game/start-game.c.s
-.PHONY : src/game/start-game/start-game.s
+src/sGame/sGame.s: src/sGame/sGame.c.s
+.PHONY : src/sGame/sGame.s
 
 # target to generate assembly for a file
-src/game/start-game/start-game.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.s
-.PHONY : src/game/start-game/start-game.c.s
+src/sGame/sGame.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/sGame/sGame.c.s
+.PHONY : src/sGame/sGame.c.s
 
-src/menu/view-menu/view-menu.o: src/menu/view-menu/view-menu.c.o
-.PHONY : src/menu/view-menu/view-menu.o
+src/vInstructions/vInstructions.o: src/vInstructions/vInstructions.c.o
+.PHONY : src/vInstructions/vInstructions.o
 
 # target to build an object file
-src/menu/view-menu/view-menu.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o
-.PHONY : src/menu/view-menu/view-menu.c.o
+src/vInstructions/vInstructions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o
+.PHONY : src/vInstructions/vInstructions.c.o
 
-src/menu/view-menu/view-menu.i: src/menu/view-menu/view-menu.c.i
-.PHONY : src/menu/view-menu/view-menu.i
+src/vInstructions/vInstructions.i: src/vInstructions/vInstructions.c.i
+.PHONY : src/vInstructions/vInstructions.i
 
 # target to preprocess a source file
-src/menu/view-menu/view-menu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.i
-.PHONY : src/menu/view-menu/view-menu.c.i
+src/vInstructions/vInstructions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.i
+.PHONY : src/vInstructions/vInstructions.c.i
 
-src/menu/view-menu/view-menu.s: src/menu/view-menu/view-menu.c.s
-.PHONY : src/menu/view-menu/view-menu.s
+src/vInstructions/vInstructions.s: src/vInstructions/vInstructions.c.s
+.PHONY : src/vInstructions/vInstructions.s
 
 # target to generate assembly for a file
-src/menu/view-menu/view-menu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.s
-.PHONY : src/menu/view-menu/view-menu.c.s
+src/vInstructions/vInstructions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.s
+.PHONY : src/vInstructions/vInstructions.c.s
+
+src/vMain/vMain.o: src/vMain/vMain.c.o
+.PHONY : src/vMain/vMain.o
+
+# target to build an object file
+src/vMain/vMain.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o
+.PHONY : src/vMain/vMain.c.o
+
+src/vMain/vMain.i: src/vMain/vMain.c.i
+.PHONY : src/vMain/vMain.i
+
+# target to preprocess a source file
+src/vMain/vMain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/vMain/vMain.c.i
+.PHONY : src/vMain/vMain.c.i
+
+src/vMain/vMain.s: src/vMain/vMain.c.s
+.PHONY : src/vMain/vMain.s
+
+# target to generate assembly for a file
+src/vMain/vMain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForzaV.dir/build.make CMakeFiles/ForzaV.dir/src/vMain/vMain.c.s
+.PHONY : src/vMain/vMain.c.s
 
 # Help Target
 help:
@@ -213,12 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/game/start-game/start-game.o"
-	@echo "... src/game/start-game/start-game.i"
-	@echo "... src/game/start-game/start-game.s"
-	@echo "... src/menu/view-menu/view-menu.o"
-	@echo "... src/menu/view-menu/view-menu.i"
-	@echo "... src/menu/view-menu/view-menu.s"
+	@echo "... src/sGame/sGame.o"
+	@echo "... src/sGame/sGame.i"
+	@echo "... src/sGame/sGame.s"
+	@echo "... src/vInstructions/vInstructions.o"
+	@echo "... src/vInstructions/vInstructions.i"
+	@echo "... src/vInstructions/vInstructions.s"
+	@echo "... src/vMain/vMain.o"
+	@echo "... src/vMain/vMain.i"
+	@echo "... src/vMain/vMain.s"
 .PHONY : help
 
 

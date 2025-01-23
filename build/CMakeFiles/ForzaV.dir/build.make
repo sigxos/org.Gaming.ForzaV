@@ -83,51 +83,67 @@ CMakeFiles/ForzaV.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ForzaV.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sigxos/Pubblici/ForzaV/main.c -o CMakeFiles/ForzaV.dir/main.c.s
 
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: CMakeFiles/ForzaV.dir/flags.make
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o: CMakeFiles/ForzaV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o -MF CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o.d -o CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o -c /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o: CMakeFiles/ForzaV.dir/flags.make
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o: /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o: CMakeFiles/ForzaV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o -MF CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o.d -o CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o -c /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c
 
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c > CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.i
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ForzaV.dir/src/sGame/sGame.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c > CMakeFiles/ForzaV.dir/src/sGame/sGame.c.i
 
-CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c -o CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.s
+CMakeFiles/ForzaV.dir/src/sGame/sGame.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ForzaV.dir/src/sGame/sGame.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c -o CMakeFiles/ForzaV.dir/src/sGame/sGame.c.s
 
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o: CMakeFiles/ForzaV.dir/flags.make
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o: /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o: CMakeFiles/ForzaV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o -MF CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o.d -o CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o -c /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c
+CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o: CMakeFiles/ForzaV.dir/flags.make
+CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o: /home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.c
+CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o: CMakeFiles/ForzaV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o -MF CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o.d -o CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o -c /home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.c
 
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c > CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.i
+CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.c > CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.i
 
-CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c -o CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.s
+CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.c -o CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.s
+
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o: CMakeFiles/ForzaV.dir/flags.make
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o: /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o: CMakeFiles/ForzaV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o -MF CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o.d -o CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o -c /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c
+
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ForzaV.dir/src/vMain/vMain.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c > CMakeFiles/ForzaV.dir/src/vMain/vMain.c.i
+
+CMakeFiles/ForzaV.dir/src/vMain/vMain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ForzaV.dir/src/vMain/vMain.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c -o CMakeFiles/ForzaV.dir/src/vMain/vMain.c.s
 
 # Object files for target ForzaV
 ForzaV_OBJECTS = \
 "CMakeFiles/ForzaV.dir/main.c.o" \
-"CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o" \
-"CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o"
+"CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o" \
+"CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o" \
+"CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o"
 
 # External object files for target ForzaV
 ForzaV_EXTERNAL_OBJECTS =
 
 ForzaV: CMakeFiles/ForzaV.dir/main.c.o
-ForzaV: CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o
-ForzaV: CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o
+ForzaV: CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o
+ForzaV: CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o
+ForzaV: CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o
 ForzaV: CMakeFiles/ForzaV.dir/build.make
 ForzaV: /usr/lib/x86_64-linux-gnu/libcurses.so
 ForzaV: /usr/lib/x86_64-linux-gnu/libform.so
 ForzaV: CMakeFiles/ForzaV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ForzaV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sigxos/Pubblici/ForzaV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ForzaV"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ForzaV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

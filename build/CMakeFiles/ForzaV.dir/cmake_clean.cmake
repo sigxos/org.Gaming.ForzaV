@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ForzaV.dir/main.c.o"
   "CMakeFiles/ForzaV.dir/main.c.o.d"
-  "CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o"
-  "CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o.d"
-  "CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o"
-  "CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o.d"
+  "CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o"
+  "CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o.d"
+  "CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o"
+  "CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o.d"
+  "CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o"
+  "CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o.d"
   "ForzaV"
   "ForzaV.pdb"
 )

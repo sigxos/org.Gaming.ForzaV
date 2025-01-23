@@ -9,8 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sigxos/Pubblici/ForzaV/main.c" "CMakeFiles/ForzaV.dir/main.c.o" "gcc" "CMakeFiles/ForzaV.dir/main.c.o.d"
-  "/home/sigxos/Pubblici/ForzaV/src/game/start-game/start-game.c" "CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o" "gcc" "CMakeFiles/ForzaV.dir/src/game/start-game/start-game.c.o.d"
-  "/home/sigxos/Pubblici/ForzaV/src/menu/view-menu/view-menu.c" "CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o" "gcc" "CMakeFiles/ForzaV.dir/src/menu/view-menu/view-menu.c.o.d"
+  "/home/sigxos/Pubblici/ForzaV/src/sGame/sGame.c" "CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o" "gcc" "CMakeFiles/ForzaV.dir/src/sGame/sGame.c.o.d"
+  "/home/sigxos/Pubblici/ForzaV/src/vInstructions/vInstructions.c" "CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o" "gcc" "CMakeFiles/ForzaV.dir/src/vInstructions/vInstructions.c.o.d"
+  "/home/sigxos/Pubblici/ForzaV/src/vMain/vMain.c" "CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o" "gcc" "CMakeFiles/ForzaV.dir/src/vMain/vMain.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
